@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import styled from '@emotion/styled'
 
 const Container = styled.div`
@@ -36,7 +35,7 @@ export default function Home() {
       </Head>
 
       <Main>
-        <BlogTitle className={styles.title}>
+        <BlogTitle>
           {title}
         </BlogTitle>
       </Main>
